@@ -1,0 +1,666 @@
+@import url(http://fonts.googleapis.com/css?family=Monoton);
+@import url(http://fonts.googleapis.com/css?family=Source+Code+Pro);
+@import url(http://fonts.googleapis.com/css?family=Ubuntu+Condensed);
+@import url(http://fonts.googleapis.com/css?family=Oswald);  /*google font : font-family: 'Oswald', sans-serif;*/
+@import url(http://fonts.googleapis.com/css?family=Raleway:100); /*font-family: 'Raleway', sans-serif;*/
+
+/*----------SECTION FOR SPECIAL ICONS----------*/
+@font-face {
+  font-family: 'icon';
+  src: url('../font/icomoon.woff') format('woff'), /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+       url('../font/icomoon.ttf') format('truetype'); /* Chrome 4+, Firefox 3.5, Opera 10+, Safari 3ÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã¢â‚¬Â ÃƒÂ¢Ã¢â€šÂ¬Ã¢â€žÂ¢ÃƒÆ’Ã†â€™ÃƒÂ¢Ã¢â€šÂ¬Ã‚Â ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬ÃƒÂ¢Ã¢â‚¬Å¾Ã‚Â¢ÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬Ãƒâ€¦Ã‚Â¡ÃƒÆ’Ã†â€™ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â¢ÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã¢â‚¬Â ÃƒÂ¢Ã¢â€šÂ¬Ã¢â€žÂ¢ÃƒÆ’Ã†â€™ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â¢ÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â¢ÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â¢ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬Ãƒâ€¦Ã‚Â¡ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â¬ÃƒÆ’Ã†â€™ÃƒÂ¢Ã¢â€šÂ¬Ã‚Â¦ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â¡ÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬Ãƒâ€¦Ã‚Â¡ÃƒÆ’Ã†â€™ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â¬ÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã¢â‚¬Â ÃƒÂ¢Ã¢â€šÂ¬Ã¢â€žÂ¢ÃƒÆ’Ã†â€™ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â¢ÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â¢ÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â¢ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡Ãƒâ€šÃ‚Â¬ÃƒÆ’Ã¢â‚¬Â¦Ãƒâ€šÃ‚Â¡ÃƒÆ’Ã†â€™ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â¬ÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬Ãƒâ€¦Ã‚Â¡ÃƒÆ’Ã†â€™ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â5 */
+}
+.icon-home:after {
+	font-family: 'icon';
+	speak: none;
+	content: "\e600  ";
+}
+.icon-about:after {
+	font-family: 'icon';
+	speak: none;
+	content: "\e675  ";
+	
+}
+.icon-file:after {
+	font-family: 'icon';
+	speak: none;
+	content: "\e622  ";
+}
+.icon-cool:after {
+	font-family: 'icon';
+	speak: none;
+	content: "\e6e2  ";
+}
+.icon-gallery:before {
+font-family: 'icon';
+	speak: none;
+	content: "\e60e  ";
+}
+.icon-buy:before {
+font-family: 'icon';
+	speak: none;
+	content: "\e638  ";
+}
+.icon-contact:before {
+font-family: 'icon';
+	speak: none;
+	content: "\e63c  ";
+}
+.icon-facebook:before {
+font-family: 'icon';
+	speak: none;
+	content: "\e769  ";
+}
+.icon-twitter:before {
+font-family: 'icon';
+	speak: none;
+	content: "\e76d  ";
+}
+.icon-linkedin:after {
+	font-family: 'icon';
+	speak: none;
+	content: "\e79f  ";
+	color: #4875B4;
+}
+.icon-plus:before {
+	font-family: 'icon';
+	speak: none;
+	content: "\e702  ";
+	color: #4875B4;
+}
+/*----------END SECTION FOR SPECIAL ICONS----------*/
+header
+{
+	max-width: 1200px;
+	margin: 0 auto;
+	z-index: 1000;
+	display: block;
+	position: relative;
+}
+body
+{
+	margin:0;
+	min-width:800px;
+}
+#wrapper
+{
+	padding-top: 100px;
+	position: relative;
+	display: block;
+	z-index: 1000;
+}
+/*---------------transition 1 -----------------------------*/
+#header_and_wrapper_footer 
+{
+	position: absolute;
+	display: block;
+	z-index: 1000;
+	bottom: 0;
+	left: 0;
+	width: 100%;
+}
+#transition1-content
+{
+z-index: 1000;
+position: relative;
+overflow:hidden;
+margin: 0 auto;
+max-width: 1100px;
+}
+#header_and_wrapper_footer #footer_left
+{
+    display: inline-block;
+    margin: 1em;
+    padding: 0;
+}
+#header_and_wrapper_footer #footer_left ul
+{
+	margin:none;
+	padding:none;
+
+}
+#header_and_wrapper_footer #footer_left .toptext
+{
+	list-style-type:none;
+	
+}
+#header_and_wrapper_footer #footer_left .toptext a
+{
+	font-family: 'Oswald', sans-serif;
+	font-size:2em;
+	font-weight:600;
+	color:#fff;
+}
+#header_and_wrapper_footer #footer_left .bottomtext
+{
+	list-style-type:none;
+	background:red;
+	display: inline-table;
+}
+#header_and_wrapper_footer #footer_left .bottomtext a
+{
+	font-family: verdana;
+	font-size: 1.5em;
+	font-weight:600;
+	color:#fff;
+}
+#header_and_wrapper_footer #footer_right
+{
+    display: inline-block;
+    margin: 1em;
+    padding: 0;
+}
+#header_and_wrapper_footer #footer_right ul
+{
+	margin:none;
+	padding:none;
+}
+#header_and_wrapper_footer #footer_right .toptext
+{
+	list-style-type:none;
+
+}
+#header_and_wrapper_footer #footer_right .toptext a
+{
+	font-family: 'Oswald', sans-serif;
+	font-size:2em;
+	font-weight:600;
+	color:#fff;
+}
+#header_and_wrapper_footer #footer_right .bottomtext
+{
+	list-style-type:none;
+	background:red;
+	display: inline-table;
+}
+#header_and_wrapper_footer #footer_right .bottomtext a
+{
+	font-family: verdana;
+	font-size: 1.5em;
+	font-weight:600;
+	color:#fff;
+}
+.transition-filter1
+{
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	top: 0;
+	opacity: .4;
+	display: block;
+	background: black;
+	z-index:500;
+}
+#header_and_wrapper_footer #animated_footer
+{
+    display: inline-block;
+    margin: 1em;
+    padding: 0;
+    float: right;
+}
+#header_and_wrapper_footer #animated_footer li
+{
+	list-style-type:none;
+	
+}
+#header_and_wrapper_footer #animated_footer li a
+{
+	font-family: 'Raleway', sans-serif;
+	font-size:4em;
+	font-weight:600;
+	color: #000;
+	-webkit-animation-duration: 4s;
+  -webkit-animation-iteration-count: 1;
+  animation-duration: 3s;
+  animation-delay: 2s;
+  animation-iteration-count: 1;
+	background: yellow;
+}
+/*#header_and_wrapper_footer a
+{
+	font-size: 2em;
+	font-family: 'Raleway', sans-serif;
+	background: yellow;
+	margin-bottom: 5em;
+}*/
+/*---------------------END transition 1 -------------------------*/
+/*---------------------Transition 2 ------------------------------*/
+.about_me_footer
+{
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	width: 100%;
+}
+.about_me_footer h1
+{
+    font-family: 'Oswald', sans-serif;
+
+    color: #fff;
+    display: inline-block;
+}
+.about_me_footer h2.flashing_
+{
+	color:#fff;
+	background:none;
+}
+.about_me_footer ul#technical_favs
+{
+
+}
+.about_me_footer ul#technical_favs li.technical_favs
+{
+	list-style-type: none;
+	display: inline-block;
+	border: 1px solid red;
+	border-radius: 20px;
+	background: red;
+}
+.about_me_footer ul#technical_favs li.technical_favs a
+{
+	text-decoration: none;
+	font-family: 'Oswald', sans-serif;
+	color: #fff;
+	padding: .5em;
+}
+.about_me_footer ul#technical_favs li.technical_favs a:before
+{
+	content: "+ | ";
+}
+
+/*|||||||||||||||||||||||||||||*/
+.about_me_footer h2
+{
+    background: yellow;
+
+    display: inline-block;
+    text-align: center;
+    color: #000;
+    font-size: 2em;
+}
+.about_me_footer ul.secondary_menu
+{
+    margin: 0;
+
+    padding: 0;
+}
+.about_me_footer ul.secondary_menu li.second_menu
+{
+
+}
+#about_me_footer_content
+{
+	position: relative;
+	z-index: 1000;
+	max-width: 1100px;
+	margin: 0 auto;
+}
+/*--------------------END Transition 2----------------------------*/
+.menu h1
+{
+	font-size:1.5em;
+	font-family: 'Raleway', sans-serif;
+	color: #fff;
+	padding-left: 1em;
+}
+#myname h1
+{
+	font-size:1.5em;
+	font-family: 'Raleway', sans-serif;
+	color: #fff;
+	padding-left: 1em;
+}
+.top h1
+{
+	font-size: 2.5em;
+	color: #fff;
+	padding-left: 1em;
+	text-align: center;
+	font-family: 'Monoton', cursive;
+	margin: 0;
+	font-weight: 200;
+	text-shadow: 0px 3px 1px #000;
+}
+.top p
+{
+	font-size:1em;
+	font-family: 'Raleway', sans-serif;
+	color: #fff;
+	padding-left: 1em;
+	text-align: center;
+	width: 50%;
+	margin: 0 auto;
+	text-shadow: 0px 0px 1px yellow;
+}
+.top
+{
+    margin: 0 auto;
+	
+}
+.menu ul 
+{
+	text-align:right;
+}
+.menu ul li
+{
+	display:inline-block;
+	padding-right: 1em;
+}
+.menu ul li a
+{
+	text-decoration:none;
+}
+.menu ul li a h1
+{
+	font-size: 1.5em;
+	font-family: 'Raleway', sans-serif;
+	color: #fff;
+}
+#myname
+{
+	width:49%;
+	display:inline-block;
+}
+.menu
+{
+	width:49%;
+	display:inline-block;
+}
+#center_data
+{
+	width:90%;
+	margin:0 auto;
+	max-width:1024px;
+	min-width:500px;
+	display: block;
+}
+#left
+{
+	display: inline-block;
+	vertical-align:top;
+}
+#right
+{
+}
+.featured
+{
+	width: 33%;
+	display:inline-block;
+	vertical-align: middle;
+	float: left;
+	margin: 1em;
+}
+.cycle-slideshow img 
+{
+width: 100%;
+}
+h2
+{
+	font-size: 1.5em;
+	font-family: 'Raleway', sans-serif;
+	color: #fff;
+	margin: 0;  
+	padding: 5px;
+	text-align: center;
+}
+ul#main_menu 
+{
+	margin: 0 auto;
+	padding:0;
+	text-align: center;
+	margin-top: 40px;
+}
+ul#main_menu li
+{
+	list-style-type:none;
+	border: 3px solid #fff;
+	margin: 0;
+	padding: 0;
+	margin-bottom: 1em;
+	display: inline-block;
+	width: 20%;
+}
+ul#main_menu li a
+{
+	text-decoration:none;
+	margin: 0;  padding: 0;
+}
+/*-----ABOUT ME SECTION--------*/
+#about_me
+{
+	background: #87CEEB;
+	position:relative;
+}
+#about_me .about_me_title
+{
+	margin:0 auto;
+	max-width:1200px;
+}
+#about_me .about_me_title
+{
+	padding-bottom:1em;
+	width:100%;
+	padding-top: 2em;
+}
+#about_me .body_of_about_me
+{
+	max-width:1200px;
+	margin:0 auto;
+}
+#about_me h3
+{
+	color: #fff;
+	font-size: 2.5em;
+	margin-left: .5em;
+	margin-right: 0;
+	margin-top: 0;
+	margin-bottom: 0;
+	border-bottom: 5px solid #333366;
+	display: inline-block;
+	font-family: 'Raleway', sans-serif;
+}
+#about_me .body_of_about_me #my_story
+{
+	margin-left:2%;
+	margin-right:2%;
+	width:70%;
+	display: inline-block;
+	vertical-align: top;
+}
+
+#about_me p
+{
+	color: #fff;
+	font-size: 1.5em;
+	display: inline;
+	font-family: 'Raleway', sans-serif;
+	font-weight: 900;
+}
+#about_me .body_of_about_me #about_me_side
+{
+	width:25%;
+	display:inline-block;
+}
+#about_me .body_of_about_me #about_me_side h6
+{
+	vertical-align: top;
+	margin: 0;
+	font-size: 2.5em;
+	border-bottom: 5px solid #333366;
+	color: #fff;
+	font-family: 'Raleway', sans-serif;
+}
+#about_me .body_of_about_me #about_me_side ul 
+{
+	margin:0;
+	padding:0;
+}
+#about_me .body_of_about_me #about_me_side ul li.skills
+{
+	margin: 0;
+	margin-top:1em;
+	margin-bottom:1em;
+	font-size: 1em;
+	font-family: 'Oswald', sans-serif;
+	color:#fff;
+	list-style-type:none;
+	-moz-box-shadow: 3px 3px 5px 6px #333366;
+	-webkit-box-shadow: 3px 3px 5px 6px #333366;
+	box-shadow: 0px 0px 10px 6px #333366;
+}
+#about_me .body_of_about_me #about_me_side ul li.skills img 
+{
+	width: 100%;
+	margin: 0;
+}
+#about_me .about_me_title img
+{
+	width:100%;
+}
+/*----------END ABOUT ME SECTION--------------*/
+/*----------START MY SITES SECTION------------*/
+#my_sites
+{
+	position:relative;
+}
+.my_sites_title h4
+{
+	text-align:center;	
+	font-size: 3.5em;
+	color: #000;
+	font-family: 'Raleway', sans-serif;
+}
+#my_sites_left
+{
+	width: 49%;
+	display:inline-block;
+}
+#my_sites_left img 
+{
+width: 100%;
+margin-left: auto;
+margin-right: auto;
+max-width:500px;
+display:block;	
+}
+#my_sites_left a
+{
+	text-decoration:none;
+}
+#my_sites_left p
+{
+	font-style: italic;
+	display: block;
+}
+#my_sites_left a h5
+{
+	font-size: 1.5em;
+	color: #000;
+	font-family: 'Ubuntu Condensed', sans-serif;
+	text-align: center;
+}
+#my_sites_right
+{
+	width: 49%;
+	display:inline-block;
+}
+#my_sites_right img 
+{
+width: 100%;
+margin-left: auto;
+margin-right: auto;
+max-width:500px;
+display:block;	
+}
+#my_sites_right a
+{
+	text-decoration:none;
+}
+#my_sites_right p
+{
+	font-style: italic;
+	display: block;
+}
+
+#my_sites_right a h5
+{
+	font-size: 1.5em;
+	color: #000;
+	font-family: 'Ubuntu Condensed', sans-serif;
+	text-align:center;
+}
+
+/*----------END MY SITES SECTION--------------*/
+
+#header_and_wrapper
+{
+	position:relative;
+	overflow: hidden;
+}
+#background-image
+{
+	position:absolute;
+	left: 0;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	background: url('../images/ride.jpg') no-repeat center center scroll;
+	-webkit-background-size: cover;    -moz-background-size: cover;    -o-background-size: cover;    background-size: cover;
+}
+#background-filter
+{
+	position:absolute;
+	left: 0;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	z-index:500;
+	opacity:.5;
+	background: black;
+	-webkit-background-size: cover;    -moz-background-size: cover;    -o-background-size: cover;    background-size: cover;
+}
+.second_menu
+{
+	position:absolute;
+	width: 100%;
+	bottom:0;
+	left:0;
+}
+.second_menu ul
+{
+	margin:0 auto;
+	padding:0;
+	text-align:center;
+}
+.second_menu_li
+{
+	display:inline-block;
+	list-style-type: none;
+	 
+	width: 33%;
+}
+.second_menu_li:hover
+{
+	opacity:.7;
+}
+.second_menu_li a
+{
+	text-decoration:none;
+}
+.second_menu_li a#buffstatelogo img
+{
+	width:100%;
+}
+.second_menu_li a#inergexlogo img
+{
+	width:100%;
+}
+.second_menu_li a#ciscologo img
+{
+	width:100%;
+}	
+.second_menu_li a h2
+{
+	color: #000;
+}
