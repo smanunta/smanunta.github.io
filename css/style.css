@@ -297,11 +297,13 @@ animation-iteration-count: 2;
     padding: 0;
 	-webkit-animation: intSmallTitleHead 2s; /* Chrome, Safari, Opera */
     animation: intSmallTitleHead 2s;
+    margin-top: 0;
 }
 #tit-text
 {
 	padding: 0;
     font-size: 1em;
+    margin-bottom: 0;
 }
 #small-title:hover
 {
