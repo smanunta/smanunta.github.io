@@ -3,7 +3,7 @@
 @import url(http://fonts.googleapis.com/css?family=Ubuntu+Condensed);
 @import url(http://fonts.googleapis.com/css?family=Oswald);  /*google font : font-family: 'Oswald', sans-serif;*/
 @import url(http://fonts.googleapis.com/css?family=Raleway:100); /*font-family: 'Raleway', sans-serif;*/
-@import url(https://fonts.googleapis.com/css?family=Lobster);/* font-family: 'Lobster', cursive;, cursive;*/ 
+@import url(https://fonts.googleapis.com/css?family=Lobster);/* font-family: 'Lobster', cursive;, cursive;*/
 /*----------SECTION FOR SPECIAL ICONS----------*/
 @font-face {
   font-family: 'icon';
@@ -19,7 +19,7 @@
 	font-family: 'icon';
 	speak: none;
 	content: "\e675  ";
-	
+
 }
 .icon-file:after {
 	font-family: 'icon';
@@ -135,7 +135,7 @@ body
 }
 @media screen and (max-height: 768px)
 	{
-		#page-caption 
+		#page-caption
 		{
     		padding-top: 20px;
 		}
@@ -240,7 +240,7 @@ body
 #header_and_wrapper_footer #animated_footer li
 {
 	list-style-type:none;
-	
+
 }
 #header_and_wrapper_footer #animated_footer li a
 {
@@ -263,7 +263,7 @@ body
 }
 /*---------------------END transition 1 -------------------------*/
 /*-----------tit-head and tit-text used for the title with subtext button---*/
-#tit-qou 
+#tit-qou
 {
 	margin-bottom:40px;
 }
@@ -282,7 +282,11 @@ body
     -o-transition: all .2s ease-out;
     transition: all .2s ease-out;
     font-family: 'Raleway', sans-serif;
-    font-weight: bold;	
+    font-weight: bold;
+    -webkit-animation-duration: 2s;
+  -webkit-animation-iteration-count: 2;
+  animation-duration: 2s;
+animation-iteration-count: 2;
 }
 #tit-head
 {
@@ -302,7 +306,7 @@ body
 #small-title:hover
 {
 	background:#ffffff;
-} 
+}
 #small-title:hover > #tit-head
 {
 	color:#000000;
@@ -318,7 +322,7 @@ body
 		text-shadow: 0px 3px 20px red;
     }
     100% {
-        
+
     	color: #fff;
     }
 }
@@ -328,7 +332,7 @@ body
 		text-shadow: 0px 3px 20px red;
     }
     100% {
-        
+
     	color: #fff;
     }
 }
@@ -338,7 +342,7 @@ body
 		text-shadow: 0px 3px 20px red;
     }
     100% {
-        
+
     	color: #fff;
     }
 }
@@ -471,7 +475,7 @@ body
 	{
 		font-size: 5.5em;
 	}
-	
+
 }
 #about_me
 {
@@ -493,13 +497,13 @@ body
 	top:30%;
 	left:0;
 	width:100%;
-	
+
 }
 #about_me_cover_header h1
 {
 	color:#ffffff;
 	font-size: 7em;
-    text-shadow: 0px 5px 5px red; 
+    text-shadow: 0px 5px 5px red;
 	cursor:pointer;
 }
 @media screen and (max-width:768px)
@@ -537,7 +541,7 @@ body
     text-shadow: .04em .04em 0 #9cb8b3;
 }
 @media screen and (max-width: 480px) {
-	#my_sites .my_sites_title span 
+	#my_sites .my_sites_title span
 	{
     font-size: 3em;
     z-index: 100;
@@ -598,7 +602,7 @@ body
 	background: url('../images/mug1.jpg') no-repeat center center scroll;
 	min-height:100%;
     -webkit-background-size: cover;
-    -moz-background-size: cover; 
+    -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
 }
@@ -628,7 +632,7 @@ body
 {
 
 }
-.my_work .title a 
+.my_work .title a
 {
   text-decoration:none;
 }
@@ -649,7 +653,7 @@ body
 }
 @media screen and (max-width: 600px) {
     body {
-       
+
     }
 	#header_and_wrapper_footer #animated_footer li a
 	{
@@ -670,7 +674,7 @@ body
 	}
 	#footer1
 	{
-		display:none; 
+		display:none;
 	}
 }
 /*----------------SKILLS ID SECTION--------------------------------------*/
@@ -777,11 +781,11 @@ width: 304px;
   background:     -ms-linear-gradient(90deg, #232526 10%, #414345 90%); /* IE10 */
   background:      -o-linear-gradient(90deg, #232526 10%, #414345 90%); /* Opera 11.10+ */
   background:         linear-gradient(90deg, #232526 10%, #414345 90%); /* W3C */
-        
+
 }
 .bg-lightblue
 {
-	background: #ADD8E6;	
+	background: #ADD8E6;
 }
 .bg-gray
 {
