@@ -228,7 +228,6 @@ padding-left: 10px;
  *		  3.1	SECTION // ABOUT ME
  *		  3.2	SECTION // SKILLS
  *		  3.3	SECTION // EXPERIENCE AND EDUCATION
- *		  3.4	SECTION // MILESTONES
  *
  **********************************************************
  */
@@ -255,215 +254,7 @@ section#about-me .media span {
 section#about-me .media .media-body {
   line-height: 28px;
 }
-section#skills .progress {
-  background-color: #262b37;
-  border-radius: 0;
-  border: 1px solid #eeeeee;
-  box-shadow: none;
-  height: 35px;
-  line-height: 35px;
-  padding: 0;
-  margin-bottom: 12px;
-}
-section#skills .progress .progress-bar {
-  background-color: #1c1f28;
-  border-right: 1px solid #00a69a;
-  box-shadow: none;
-  color: #eeeeee;
-  font-size: 12px;
-  font-weight: 300;
-  line-height: 33px;
-  text-transform: uppercase;
-}
-section#skills .progress.level {
-  background-color: inherit;
-  border: 0;
-  border-bottom: 1px dotted #262b37;
-  border-left: 1px dotted #262b37;
-  border-right: 1px dotted #262b37;
-}
-section#skills .progress.level .progress-bar {
-  background-color: inherit;
-  box-shadow: none;
-  border-right: 1px dotted #262b37;
-  color: #00a69a;
-  font-size: 11px;
-}
-section#skills .progress.level .progress-bar:last-child {
-  border-right: none;
-}
-@media (max-width: 568px) {
-  section#skills .progress.level .progress-bar {
-    font-size: 9px;
-  }
-}
-section#experience.panel-group.resume,
-section#education.panel-group.resume {
-  position: relative;
-}
-section#experience.panel-group.resume .resume-item,
-section#education.panel-group.resume .resume-item {
-  position: relative;
-  margin-bottom: 20px;
-}
-@media (max-width: 567px) {
-  section#experience.panel-group.resume .resume-item,
-  section#education.panel-group.resume .resume-item {
-    margin-bottom: 40px;
-  }
-}
-@media (min-width: 768px) {
-  section#experience.panel-group.resume .resume-item:before,
-  section#education.panel-group.resume .resume-item:before {
-    position: absolute;
-    content: '';
-    width: 1px;
-    height: calc(100% + 20px);
-    top: 0;
-    left: 160px;
-    border-left: 1px dotted #00a69a;
-  }
-}
-section#experience.panel-group.resume .resume-item:last-child,
-section#education.panel-group.resume .resume-item:last-child {
-  margin-bottom: 0px;
-}
-section#experience.panel-group.resume .resume-item:last-child:before,
-section#education.panel-group.resume .resume-item:last-child:before {
-  display: none;
-}
-section#experience.panel-group.resume .resume-item .resume-year,
-section#education.panel-group.resume .resume-item .resume-year {
-  background-color: #262b37;
-  display: block;
-  color: #eeeeee;
-  position: relative;
-  width: 110px;
-  height: 40px;
-  margin-bottom: 20px;
-  line-height: 37px;
-  text-align: center;
-  font-weight: 300;
-  text-transform: uppercase;
-  border: 1px solid #eeeeee;
-}
-@media (min-width: 568px) {
-  section#experience.panel-group.resume .resume-item .resume-year,
-  section#education.panel-group.resume .resume-item .resume-year {
-    position: absolute;
-    top: 0px;
-    left: 0px;
-    margin: 0;
-  }
-}
-section#experience.panel-group.resume .resume-item .resume-btn,
-section#education.panel-group.resume .resume-item .resume-btn {
-  position: absolute;
-  z-index: 5;
-  top: 0;
-  left: 140px;
-  width: 40px;
-  height: 40px;
-  background-color: #262b37;
-  border-radius: 0;
-  border: 1px solid #00a69a;
-}
-@media (max-width: 767px) {
-  section#experience.panel-group.resume .resume-item .resume-btn,
-  section#education.panel-group.resume .resume-item .resume-btn {
-    display: none;
-  }
-}
-section#experience.panel-group.resume .resume-item .resume-btn > a,
-section#education.panel-group.resume .resume-item .resume-btn > a {
-  display: block;
-  position: absolute;
-  z-index: 10;
-  top: 0;
-  left: 0;
-  width: 40px;
-  height: 40px;
-}
-section#experience.panel-group.resume .resume-item .resume-btn > a:before,
-section#education.panel-group.resume .resume-item .resume-btn > a:before {
-  display: block;
-  position: absolute;
-  z-index: 15;
-  content: '-';
-  top: 0;
-  left: 0;
-  width: 40px;
-  height: 40px;
-  line-height: 38px;
-  color: #eeeeee;
-  font-size: 30px;
-  font-weight: 700;
-  text-align: center;
-}
-section#experience.panel-group.resume .resume-item .resume-btn > a.collapsed:before,
-section#education.panel-group.resume .resume-item .resume-btn > a.collapsed:before {
-  content: '+';
-}
-section#experience.panel-group.resume .resume-item .panel,
-section#education.panel-group.resume .resume-item .panel {
-  padding: 0;
-  padding-bottom: 15px;
-  width: 100%;
-  background: transparent;
-  border-radius: 0px;
-}
-@media (min-width: 568px) {
-  section#experience.panel-group.resume .resume-item .panel,
-  section#education.panel-group.resume .resume-item .panel {
-    width: calc(100% - 140px);
-    margin-left: 140px;
-  }
-}
-@media (min-width: 768px) {
-  section#experience.panel-group.resume .resume-item .panel,
-  section#education.panel-group.resume .resume-item .panel {
-    width: calc(100% - 205px);
-    margin-left: 205px;
-  }
-}
-section#experience.panel-group.resume .resume-item .panel .panel-heading,
-section#education.panel-group.resume .resume-item .panel .panel-heading {
-  padding: 0;
-  padding-bottom: 5px;
-  position: relative;
-}
-section#experience.panel-group.resume .resume-item .panel .panel-heading .panel-title,
-section#education.panel-group.resume .resume-item .panel .panel-heading .panel-title {
-  height: 40px;
-  line-height: 40px;
-  padding: 0;
-}
-section#experience.panel-group.resume .resume-item .panel .panel-heading .panel-title h4,
-section#education.panel-group.resume .resume-item .panel .panel-heading .panel-title h4 {
-  float: left;
 
-  margin-right: 10px;
-}
-@media (max-width: 969px) {
-  section#experience.panel-group.resume .resume-item .panel .panel-heading .panel-title,
-  section#education.panel-group.resume .resume-item .panel .panel-heading .panel-title {
-    height: auto;
-    line-height: auto;
-  }
-  section#experience.panel-group.resume .resume-item .panel .panel-heading .panel-title h4,
-  section#education.panel-group.resume .resume-item .panel .panel-heading .panel-title h4 {
-    float: none;
-  }
-}
-section#experience.panel-group.resume .resume-item .panel .panel-collapse .panel-body,
-section#education.panel-group.resume .resume-item .panel .panel-collapse .panel-body {
-  padding: 0;
-  border-top: none;
-}
-section#experience.panel-group.resume .resume-item .panel .panel-collapse .panel-body p,
-section#education.panel-group.resume .resume-item .panel .panel-collapse .panel-body p {
-  margin-bottom: 20px;
-}
 /*!
  **********************************************************
  *
@@ -530,6 +321,8 @@ body {
     height: auto;
   }
 }
+
+
 .popStyleText
 {
   font-family: "PS Savoy","Lora","Georgia","Times New Roman",serif;
