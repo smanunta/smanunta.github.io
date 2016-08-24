@@ -25,12 +25,16 @@
 
               <div id="topbar"></div>
 
-              <!--<article>
-                <img src="images/me600.jpg" class="img-responsive img-circle animated zoomIn">
-              </article>-->
+              <article>
+                <p class="topLeftFontAwesome text-center"><i class="fa fa-file-code-o" aria-hidden="true"></i></p>
+              </article>
 
               <h1 class="text-primary">Projects</h1>
-              <h2>By JSM</h2>
+
+
+
+              <h2>By <span class="jsmSignature">JSM</span></h2>
+
 
             </header><!--/ header title -->
 
@@ -45,26 +49,29 @@
 
 
 							<div class="collapse navbar-collapse" id="myNavbar">
-						      <ul class="nav navbar-nav">
-						        <li class="active"><a href="#">Home</a></li>
-										<li><button class="collapseLandingSection" type="button" data-toggle="collapse" data-target="#about-me" data-parent=".wrapper-padding">collape test</button></li>
-										<li><button class="collapseLandingSection" type="button" data-toggle="collapse" data-target="#snlChat" data-parent=".wrapper-padding">collape test</button></li>
-										<li><button class="collapseLandingSection" type="button" data-toggle="collapse" data-target="#about-me" data-parent=".wrapper-padding">collape test</button></li>
+						      <ul class="nav navbar-nav text-center">
+										<li><button class="sideMenuItem" type="button" data-toggle="collapse" data-target="#snlChat" data-parent=".wrapper-padding"><i class="fa fa-cube" aria-hidden="true"></i> SNLCHAT App</button></li>
+										<li><button class="sideMenuItem" type="button" data-toggle="collapse" data-target="#snlChat" data-parent=".wrapper-padding"><i class="fa fa-cube" aria-hidden="true"></i> Ol'Days Design</button></li>
+										<li><button class="sideMenuItem" type="button" data-toggle="collapse" data-target="#about-me" data-parent=".wrapper-padding"><i class="fa fa-cube" aria-hidden="true"></i> Ticketing and Management system</button></li>
 						      </ul>
-						      <ul class="nav navbar-nav navbar-right">
+						      <!--<ul class="nav navbar-nav">
 						        <li><a href="#"><span class="glyphicon glyphicon-user"></span> Sign Up</a></li>
 						        <li><a href="#"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
-						      </ul>
+						      </ul>-->
     				</div>
 
 						<ul class="pager">
 
 							<li>
-								<a href="https://github.com/smanunta" title="Social Github" class="animated rotateIn"><i class="fa fa-github" aria-hidden="true"></i></a>
+								<a href="./" title="Home" class="animated rotateIn"><i class="fa fa-home" aria-hidden="true"></i></a>
 							</li>
 
 							<li>
-								<a href="http://www.linkedin.com/in/smanunta" title="Social Linkedin" class="animated rotateIn"><i class="fa fa-linkedin"></i></a>
+								<a href="https://github.com/smanunta" title="Github" class="animated rotateIn"><i class="fa fa-github" aria-hidden="true"></i></a>
+							</li>
+
+							<li>
+								<a href="http://www.linkedin.com/in/smanunta" title="Linkedin" class="animated rotateIn"><i class="fa fa-linkedin"></i></a>
 							</li>
 
 						</ul>
@@ -84,7 +91,7 @@
 
               <div class="wrapper-padding">
 								<!--Projects landing section -->
-								<section class="margin-bottom" id="projects-landing">
+								<section class="margin-bottom collapse in" id="projects-landing">
 									<h2>Welcome to my projects page!!</h2>
 
 									<div class="row margin-bottom">
@@ -110,30 +117,37 @@
 								</section>
 
 
-								<!-- about me -->
+								<!--snlChat -->
                 <section class="margin-bottom collapse" id="snlChat">
 
-                  <h2>About me</h2>
+                  <h2>SNLChat App</h2>
                 <!--  <p><small>Excepteur sint occaecat cupidatat</small></p>-->
 
                   <div class="row margin-bottom">
 
-                    <div class="col-md-8">
+                    <div class="col-md-12">
 
                       <p class="popStyleText">
-                        Snl chat project
+												The purpose of this project is to create a web environment where users will be able to create a chat room with specific styles for each room that will enable them to invite other users to the room or send an email to people to come to the site and sign up.
+												 The project idea is drawn from the regular attendance of an event called “MassiveLan”. At the event gamer clans want unique ways to communicate with their groups with something other than the boring everyday chat Apps.
+												  The project will be used to target groups that want their chat rooms customized for them to cater their individual needs and preferences.
+													 The project is designed to allow the room creator to edit the background image, the colors of the fonts and containers, etc.
+													  The program will be hosted on a web server supporting PHP, MySQL, and will also use JavaScript, HTML, CSS, Laravel PHP, and JSON data.
+														 This chat room will be perfect to connect friends at gaming events, co-workers that do not want to use their internal chats, or connect people at any event
+
                       </p>
 
                     </div>
 
-                    <div class="col-md-4 text-center">
+                    <div class="col-md-12 text-center margin-top">
 
-                      <p class="lead text-center">
-                        <i class="fa fa-level-down"></i>
+                      <p class="subTitle1 text-center">
+                        Check it out!!
                       </p>
-                      <a href="JoseManuntaWebDevResume.pdf" class="btn btn-lg btn-block btn-default">
-                        <i class="fa fa-file-text-o"></i>&nbsp; Resume PDF
-                      </a>
+											<a href="https://github.com/smanunta" title="Github" class="projectRefBtn animated rotateIn"><i class="fa fa-git-square" aria-hidden="true"></i></a>
+											<a href="https://github.com/smanunta" title="Github" class="projectRefBtn animated rotateIn"><i class="fa fa-git-square" aria-hidden="true"></i></a>
+											<a href="https://github.com/smanunta" title="Github" class="projectRefBtn animated rotateIn"><i class="fa fa-git-square" aria-hidden="true"></i></a>
+
 
                     </div>
 

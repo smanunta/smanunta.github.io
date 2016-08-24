@@ -74,6 +74,15 @@ h6 {
 .text-secondary {
   color: #00a69a;
 }
+.jsmSignature{
+  color: red;
+  font-style: italic;
+}
+.topLeftFontAwesome{
+  color: #fff;
+  font-size: 100px;
+}
+
 .btn {
   border-radius: 0;
 }
@@ -117,6 +126,17 @@ border-width: 3px;
 .wrapper-aside {
   background-color: #262b37;
   color: #333333;
+  margin: 0 !important;
+  padding: 0 !important;
+}
+#myNavbar{
+  margin-bottom: 30px;
+  padding: 0;
+}
+#myNavbar ul.nav.navbar-nav{
+  width: 100%;
+    padding: 0;
+    margin: 0;
 }
 .wrapper-aside header {
   margin: 35px 0;
@@ -175,6 +195,35 @@ border-width: 3px;
   background-color: #262b37;
   text-shadow: none;
 }
+.wrapper-aside .nav.navbar-nav li{
+  float: none;;
+  border-top: 1px solid rgba(0, 0, 0, 0.5);
+    border-bottom: 2px solid rgba(255, 255, 255, 0.04);
+    padding-top: 10px;
+    padding-bottom: 10px;
+    -webkit-transition: all 0.35s;
+    -moz-transition: all 0.35s;
+    transition: all 0.35s;
+  }
+  .wrapper-aside .nav.navbar-nav li:hover{
+    background: #fff;
+  }
+  .wrapper-aside .nav.navbar-nav li:hover button{
+    color: #000;
+  }
+  .wrapper-aside .nav.navbar-nav li button:active{
+    text-decoration: none;
+    border: :0;
+  }
+  .wrapper-aside nav button{
+    border: 0;
+    background: transparent;
+    font-family: 'Raleway', sans-serif;
+    font-size: 1.2em;
+    font-weight: 600;
+    color: #ccc;
+  }
+
 .wrapper-aside footer {
   bottom: 8px;
   font-size: 13px;
@@ -215,6 +264,26 @@ margin-top: 5px;
 display: block;
 border-left: 5px solid red;
 padding-left: 10px;
+}
+.subTitle1{
+  font-size: 38px;
+    font-style: italic;
+    font-family: "PS Savoy","Lora","Georgia","Times New Roman",serif;
+    letter-spacing: -1px;
+}
+.subTitle1:after{
+  width: 120px;
+    height: 5px;
+    background-color: #24c4f8;
+    display: block;
+    content: ' ';
+    margin: 10px auto 10px;
+}
+.projectRefBtn{
+  font-size: 90px;
+}
+.margin-top{
+  margin-top: 30px;
 }
 .wrapper-section footer#signature-footer {
   color: #eeeeee;
