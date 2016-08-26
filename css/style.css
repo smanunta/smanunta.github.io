@@ -131,7 +131,7 @@ body
 /*-------------END MAIN HTML TAGS--------------*/
 #page-caption
 {
-	padding-top: 120px;
+	/*padding-top: 120px;*/
 }
 @media screen and (max-height: 768px)
 	{
