@@ -267,7 +267,7 @@ body
 {
 	margin-bottom:40px;
 }
-#small-title
+.small-title
 {
 	background: transparent;
     color: white;
@@ -288,7 +288,7 @@ body
   animation-duration: 2s;
 animation-iteration-count: 2;
 }
-#tit-head
+.tit-head
 {
 	font-family: 'Oswald', sans-serif;
     font-size: 3em;
@@ -299,22 +299,22 @@ animation-iteration-count: 2;
     animation: intSmallTitleHead 2s;
     margin-top: 0;
 }
-#tit-text
+.tit-text
 {
 	padding: 0;
     font-size: 1em;
     margin-bottom: 0;
 }
-#small-title:hover
+.small-title:hover
 {
 	background:#ffffff;
 }
-#small-title:hover > #tit-head
+.small-title:hover > .tit-head
 {
 	color:#000000;
 	text-shadow: 0px 3px 20px red;
 }
-#small-title:hover > #tit-text
+.small-title:hover > .tit-text
 {
 	color:red;
 }
