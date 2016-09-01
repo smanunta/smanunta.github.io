@@ -131,7 +131,7 @@ body
 /*-------------END MAIN HTML TAGS--------------*/
 #page-caption
 {
-	/*padding-top: 120px;*/
+	padding-top: 120px;
 }
 @media screen and (max-height: 768px)
 	{
@@ -269,6 +269,7 @@ body
 }
 .small-title
 {
+  margin:20px;
 	background: transparent;
     color: white;
     border: 2px solid #fff;
@@ -800,5 +801,8 @@ width: 304px;
 .revealOnScroll
 {
 	opacity:0;
+}
+.liBtn{
+
 }
 /*--------------END HELPER CLASSESS AND SHIT---------------------------------------------*/
